@@ -15,8 +15,6 @@
 
 <body>
 
-
-
     <header class="header">
         <a href="index.html">
             <img class="header__logo" src="img/logo.png" alt="Logotipo">
@@ -28,14 +26,39 @@
     </nav>
 
     <main class="contenedor">
-        <h1 class="contenedor__h1">Producto</h1>
+        <h1>React JS</h1>
 
-        
+        <div class="detalle">
+            <img class="detalle__imagen" src="img/3.jpg" alt="Camisa de React JS">
+
+            <div class="detalle__contenido">
+                <P>
+                    It is a long established fact that a reader
+                    will be distracted by the readable content
+                    of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has
+                    a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here',
+                    making it look like readable English. Many desktop
+                    publishing packages and web page editors now use.
+                </P>
+                <form class="formulario">
+                    <select  required class="formulario__campo" name="talla" id="">
+                        <option disabled selected>Opciones</option>
+                        <option value="1">Chica</option>
+                        <option value="2">Mediana</option>
+                        <option value="3">Grande</option>
+                    </select>
+                    <input required class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Añadir al carrito" >
+                </form>
+            </div>
+        </div>
 
     </main>
-    
 
-    <footer class="footer">
+
+    <footer style="margin-top: 12%;" class="footer">
         <p>Benjamin Avila - Todos los derechos reservados 2022.</p>
     </footer>
 
